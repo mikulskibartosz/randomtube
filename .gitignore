@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+wiki
+preprocessing.ipynb
+output.txt
+Pipfile
+Pipfile.lock
+index.html
+public/index.html
