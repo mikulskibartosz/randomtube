@@ -9,7 +9,7 @@ selected_articles = random.sample(lines, 1000)
 
 def turn_into_youtube_search_link(text):
     no_new_line = text.strip()
-    remove_list_of = no_new_line.replace('list_of ', '')
+    remove_list_of = no_new_line.replace('list_of_', '')
     no_disambiguation = remove_list_of.replace('disambiguation', '')
     underscore_to_plus = no_disambiguation.replace('_', '+')
     underscore_to_space = no_disambiguation.replace('_', ' ')
